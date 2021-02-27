@@ -10,4 +10,5 @@ build:
     web: web/Dockerfile
   config:
     AUTOMUTEUS_TAG: 6.11.0
+    EMOJI_GUILD_ID: 687561835381129256
     GALACTUS_TAG: latest
