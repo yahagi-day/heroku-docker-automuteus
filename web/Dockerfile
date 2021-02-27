@@ -1,5 +1,5 @@
 ARG AUTOMUTEUS_TAG=6.11.0
-ARG GALACTUS_TAG=latest
+ARG GALACTUS_TAG=2.4.1
 FROM denverquane/amongusdiscord:${AUTOMUTEUS_TAG} AS automuteus
 FROM automuteus/galactus:${GALACTUS_TAG} AS galactus
 
