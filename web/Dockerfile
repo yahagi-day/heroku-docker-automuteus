@@ -1,4 +1,4 @@
-ARG AUTOMUTEUS_TAG=6cb7261eaf4b146a0f9def0da8ed019dcffbddee
+ARG AUTOMUTEUS_TAG=6.11.2
 ARG GALACTUS_TAG=2.4.1
 ARG EMOJI_TAG=
 FROM yahagi-day/amongusdiscord:${AUTOMUTEUS_TAG} AS automuteus
