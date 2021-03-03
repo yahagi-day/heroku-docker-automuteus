@@ -16,6 +16,9 @@
       "description": "PLEASE COPY APP NAME HERE",
       "value": ""
     }
+    "EMOJI_TAG": {
+      "description": "SERVER GUID"
+      "value": ""
   },
   "stack": "container"
 }
