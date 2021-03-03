@@ -1,5 +1,6 @@
 ARG AUTOMUTEUS_TAG=6.11.2
 ARG GALACTUS_TAG=2.4.1
+ARG EMOJI_TAG=
 FROM denverquane/amongusdiscord:${AUTOMUTEUS_TAG} AS automuteus
 FROM automuteus/galactus:${GALACTUS_TAG} AS galactus
 
@@ -18,8 +19,9 @@ ENV BROKER_PORT="8123"
 ENV GALACTUS_ADDR="http://localhost:5858"
 ENV GALACTUS_PORT="5858"
 
-ENV LOCALE_PATH="/app/locales"
+ENV LOCALE_PATH="./locales"
 ENV LOG_PATH="./"
+ENV EMOJI_GUILD_ID=${EMOJI_TAG}
 
 VOLUME ["./"]
 
