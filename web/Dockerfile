@@ -19,9 +19,9 @@ ENV GALACTUS_ADDR="http://localhost:5858"
 ENV GALACTUS_PORT="5858"
 
 ENV LOCALE_PATH="/app/locales"
-ENV LOG_PATH="/app/logs"
+ENV LOG_PATH="./"
 
-VOLUME ["/app/logs"]
+VOLUME ["./"]
 
 EXPOSE 80
 CMD ["sh", "run.sh"]
