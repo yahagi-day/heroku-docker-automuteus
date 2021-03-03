@@ -1,7 +1,7 @@
 ARG AUTOMUTEUS_TAG=6.11.2
 ARG GALACTUS_TAG=2.4.1
 ARG EMOJI_TAG=
-FROM yahagi-day/amongusdiscord:${AUTOMUTEUS_TAG} AS automuteus
+FROM denverquane/amongusdiscord:${AUTOMUTEUS_TAG} AS automuteus
 FROM automuteus/galactus:${GALACTUS_TAG} AS galactus
 
 FROM openresty/openresty:alpine
