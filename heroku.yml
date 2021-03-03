@@ -9,5 +9,5 @@ build:
   docker:
     web: web/Dockerfile
   config:
-    AUTOMUTEUS_TAG: 6.11.0
+    AUTOMUTEUS_TAG: 6.11.2
     GALACTUS_TAG: 2.4.1
