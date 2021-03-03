@@ -18,5 +18,10 @@ ENV BROKER_PORT="8123"
 ENV GALACTUS_ADDR="http://localhost:5858"
 ENV GALACTUS_PORT="5858"
 
+ENV LOCALE_PATH="/app/locales"
+ENV LOG_PATH="/app/logs"
+
+VOLUME ["/app/logs"]
+
 EXPOSE 80
 CMD ["sh", "run.sh"]
